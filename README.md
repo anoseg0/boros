@@ -7,7 +7,6 @@
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)](https://nodejs.org/)
 [![Downloads](https://img.shields.io/npm/dm/@jrcdev/boros-code.svg)](https://www.npmjs.com/package/@jrcdev/boros-code)
 
-<a href="https://trendshift.io/repositories/15287" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15287" alt="jrcd3v%2Fboros-code | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 **Boros — an agentic AI for automated penetration testing and cybersecurity automation, in your terminal.**
 
@@ -88,7 +87,7 @@ Your browser does not support the video tag.
 
 Boros supports two authentication methods:
 
-- **Qwen OAuth (recommended & free)**: sign in with your `boros.ai` account in a browser.
+- **Qwen OAuth (recommended & free)**: sign in with your `qwen.ai` account in a browser.
 - **OpenAI-compatible API**: use `OPENAI_API_KEY` (and optionally a custom base URL / model).
 
 #### Qwen OAuth (recommended)
