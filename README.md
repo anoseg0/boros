@@ -22,7 +22,6 @@
 
 Boros is an agentic AI for the terminal, specialized in automated penetration testing and cybersecurity automation. It preserves the original framework and developer-focused UX while shifting brand identity.
 
-![](https://gw.alicdn.com/imgextra/i1/O1CN01D2DviS1wwtEtMwIzJ_!!6000000006373-2-tps-1600-900.png)
 
 ## Why Boros?
 
@@ -89,10 +88,10 @@ Your browser does not support the video tag.
 
 Boros supports two authentication methods:
 
-- **Boros OAuth (recommended & free)**: sign in with your `boros.ai` account in a browser.
+- **Qwen OAuth (recommended & free)**: sign in with your `boros.ai` account in a browser.
 - **OpenAI-compatible API**: use `OPENAI_API_KEY` (and optionally a custom base URL / model).
 
-#### Boros OAuth (recommended)
+#### Qwen OAuth (recommended)
 
 Start `boros`, then run:
 
@@ -100,7 +99,7 @@ Start `boros`, then run:
 /auth
 ```
 
-Choose **Boros OAuth** and complete the browser flow. Your credentials are cached locally so you usually won't need to log in again.
+Choose **Qwen OAuth** and complete the browser flow. Your credentials are cached locally so you usually won't need to log in again.
 
 #### OpenAI-compatible API (API key)
 
@@ -191,8 +190,8 @@ See [settings](https://jrcd3v.github.io/boros-code-docs/en/users/configuration/s
 
 | Agent | Model               | Accuracy |
 | ----- | ------------------- | -------- |
-| Boros | Boros3-Coder-480A35 | 37.5%    |
-| Boros | Boros3-Coder-30BA3B | 31.3%    |
+| Qwen | qwen3-Coder-480A35 | 37.5%    |
+| Qwen | qwen3-Coder-30BA3B | 31.3%    |
 
 ## Ecosystem
 
@@ -207,11 +206,7 @@ If you encounter issues, check the [troubleshooting guide](https://jrcd3v.github
 
 To report a bug from within the CLI, run `/bug` and include a short title and repro steps.
 
-## Connect with Us
-
-- Discord: https://discord.gg/ycKBjdNd
-- Dingtalk: https://qr.dingtalk.com/action/joingroup?code=v1,k1,+FX6Gf/ZDlTahTIRi8AEQhIaBlqykA0j+eBKKdhLeAE=&_dt_no_comment=1&origin=1
 
 ## Acknowledgments
 
-This project is based on [Google Gemini CLI](https://github.com/google-gemini/gemini-cli). We acknowledge and appreciate the excellent work of the Gemini CLI team. Our main contribution focuses on parser-level adaptations to better support Boros-Coder models.
+This project is based on [Google Gemini CLI](https://github.com/google-gemini/gemini-cli) and [QwenLM qwen-code]. We acknowledge and appreciate the excellent work of the Gemini CLI team. Our main contribution focuses on parser-level adaptations to better support Qwen-Coder models.
